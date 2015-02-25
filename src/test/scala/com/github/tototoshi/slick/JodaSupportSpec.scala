@@ -30,9 +30,9 @@ package com.github.tototoshi.slick
 import org.scalatest.{ BeforeAndAfter, FunSpec }
 import org.scalatest._
 import org.joda.time._
-import scala.slick.driver.JdbcDriver
-import scala.slick.jdbc.GetResult
-import scala.slick.jdbc.StaticQuery.interpolation
+import slick.driver.JdbcDriver
+import slick.jdbc.GetResult
+import slick.jdbc.StaticQuery.interpolation
 import java.util.{ TimeZone, Locale }
 
 abstract class JodaSupportSpec(
